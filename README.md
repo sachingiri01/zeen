@@ -7,6 +7,7 @@ This project is a **multi-step form** built with **Next.js**, **Tailwind CSS**, 
 - **Form Validation**: The user can only move forward if all fields in the current step are correctly filled.
 - **State Management with Redux**: The state is managed centrally using Redux, making the data flow more predictable and manageable across the app.
 - **wrong field indicator**: Upon the Wrong filled any value it highlights the incorrect field and without correct user cannot proceed ahead.
+- - **Responsive **:Depeending upon the size it automatic adjust and user friendly for all screen.
 
 ## Prerequisites
 
