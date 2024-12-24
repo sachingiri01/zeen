@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/comps/Navigation.jsx", "src/app/hooks/globalHook.jsx", "src/app/comps/Routs.jsx", "src/app/comps/personal_info.jsx", "src/app/hooks/context.jsx", "src/app/page.jsx", "src/app/comps/plans.jsx", "src/app/comps/Circles.jsx", "src/app/comps/addOns.jsx", "src/app/comps/finishingUp.jsx"],
+  "exclude": ["node_modules"]
+}
