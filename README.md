@@ -23,4 +23,4 @@ To get started with the project:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/sachin/Zentstreet.git
+   git clone https://github.com/sachin/Zeen.git
